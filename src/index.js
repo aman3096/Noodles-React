@@ -5,7 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <React.StrictMode style={{backgroundImage:"url('https://wallpapercave.com/wp/wp2393879.jpg')", backgroundRepeat: "no-repeat",backgroundSize: "cover"}}>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
